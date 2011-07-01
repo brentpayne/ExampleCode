@@ -1,0 +1,7 @@
+    #parser.add_option("-f", "--filelist", dest="filelist", help="The file contains a file whose lines will be binned", metavar="FILE")
+    parser.add_option("-r", "--random", dest="random", help="Use if you would like that lines to be randomly selected, bins will still be equal size")
+'''
+    #parser.add_option("-f", "--filelist", dest="filelist", help="The file contains a file whose lines will be binned", metavar="FILE")
+
+def main(argv=sys.argv):
+        bin_files.append(open_file_proper(output_filename+'.'+str(i+1),'w'))

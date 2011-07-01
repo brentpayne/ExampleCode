@@ -1,0 +1,7 @@
+    else:
+        current_output_file_index = (current_output_file_index + 1) % n
+        for line in f:
+    keyed_lines.sort()
+            bin_files[current_output_file_index].write(line)
+    for f in file_handles:
+        process_normally(args, bin_files, n)
