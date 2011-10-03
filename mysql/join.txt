@@ -1,0 +1,7 @@
+SELECT t1.position, .plan_name, pred.input_raw_text, pred.fund_score, mlar.id
+FROM `ml_financial_instrument_prediction` pred
+INNER JOIN `AreLinkingTable` t2
+ON pred.ml_audit_report_id = t2.id
+INNER JOIN `AreTable` ar
+ON ar.foriegn_key = table2.id 
+WHERE flag = 0
