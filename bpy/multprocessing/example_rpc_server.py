@@ -3,7 +3,7 @@
 ####
 # An example RPC Server built using python's multiprocessing library
 #  (new in python 2.6)
-# This example serves a function that recieves a string and returns the 
+# This example serves a function that recieves a string and returns the
 #  lowercase version of the string
 # went ahead a daemoned it with pyton_daemon
 ####
