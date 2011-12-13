@@ -1,0 +1,9 @@
+mysql -h <hostname>
+
+show running processes/queries
+mysql> show processlist;
+
+| id | user | - | - | - | time | status | query
+
+add full query information
+mysql>show full processlist;
